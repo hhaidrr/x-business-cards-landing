@@ -10,7 +10,7 @@ export function Footer() {
               <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
                 <CreditCard className="w-5 h-5 text-black" />
               </div>
-              <span className="font-semibold">TwitterCards</span>
+              <span className="font-semibold">SocialCard</span>
             </div>
             <p className="text-sm text-white/60 leading-relaxed">
               Transform your Twitter profile into professional business cards in seconds.
@@ -93,7 +93,7 @@ export function Footer() {
         
         <div className="pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-white/40">
-            © 2025 TwitterCards. All rights reserved.
+            © 2025 SocialCard. All rights reserved.
           </p>
           
           <div className="flex items-center gap-4">

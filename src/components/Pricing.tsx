@@ -8,7 +8,7 @@ export function Pricing() {
     {
       name: "Starter",
       price: "Free",
-      description: "Perfect for trying out TwitterCards",
+      description: "Perfect for trying out SocialCard",
       features: [
         "1 business card design",
         "Basic templates",
