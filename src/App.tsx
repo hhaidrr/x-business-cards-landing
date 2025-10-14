@@ -1,4 +1,5 @@
 import { GridBackground } from "./components/GridBackground";
+import { MouseGlow } from "./components/MouseGlow";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { HowItWorks } from "./components/HowItWorks";
@@ -12,6 +13,7 @@ export default function App() {
   return (
     <div className="min-h-screen relative bg-black text-white overflow-x-hidden">
       <GridBackground />
+      <MouseGlow />
       <div className="relative z-10">
         <Header />
         <Hero />
