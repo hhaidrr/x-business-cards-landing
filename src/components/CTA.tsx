@@ -1,10 +1,12 @@
 import { Button } from "./ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { motion } from "motion/react";
+import { ParticleBackground } from "./ParticleBackground";
 
 export function CTA() {
   return (
     <section className="py-32 relative overflow-hidden">
+      <ParticleBackground />
       {/* Gradient orbs */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/5 rounded-full blur-3xl" />
       

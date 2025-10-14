@@ -9,7 +9,11 @@ interface Particle {
   layer: number;
 }
 
-export function ParticleBackground() {
+interface ParticleBackgroundProps {
+  zIndex?: number;
+}
+
+export function ParticleBackground({ zIndex = -1 }: ParticleBackgroundProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<Particle[]>([]);
   const animationRef = useRef<number>();
@@ -113,7 +117,7 @@ export function ParticleBackground() {
     <canvas
       ref={canvasRef}
       className="absolute inset-0 w-full h-full pointer-events-none"
-      style={{ zIndex: 1 }}
+      style={{ zIndex }}
     />
   );
 }

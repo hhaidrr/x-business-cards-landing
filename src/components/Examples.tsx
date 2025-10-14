@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Twitter, MapPin, Link as LinkIcon, ArrowDown } from "lucide-react";
 import { Badge } from "./ui/badge";
+import { ParticleBackground } from "./ParticleBackground";
 
 export function Examples() {
   const examples = [
@@ -28,10 +29,10 @@ export function Examples() {
 
   return (
     <section id="examples" className="py-32 relative">
-      {/* Background gradient */}
+      <ParticleBackground />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent" />
       
-      <div className="container mx-auto px-4 relative">
+      <div className="container mx-auto px-4 relative z-10">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

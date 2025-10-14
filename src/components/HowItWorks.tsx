@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Twitter, Palette, Download } from "lucide-react";
+import { ParticleBackground } from "./ParticleBackground";
 
 export function HowItWorks() {
   const steps = [
@@ -25,7 +26,9 @@ export function HowItWorks() {
 
   return (
     <section id="how-it-works" className="py-32 relative">
-      <div className="container mx-auto px-4">
+      <ParticleBackground />
+      
+      <div className="container mx-auto px-4 relative z-10">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

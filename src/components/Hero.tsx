@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 bg-black">
       {/* Particle Background Animation */}
-      <ParticleBackground />
+      <ParticleBackground zIndex={1} />
       
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-5xl mx-auto text-center">

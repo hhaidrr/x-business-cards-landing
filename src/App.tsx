@@ -1,4 +1,3 @@
-import { AnimatedBackground } from "./components/AnimatedBackground";
 import { GridBackground } from "./components/GridBackground";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
@@ -12,7 +11,6 @@ import { Footer } from "./components/Footer";
 export default function App() {
   return (
     <div className="min-h-screen relative bg-black text-white overflow-x-hidden">
-      <AnimatedBackground />
       <GridBackground />
       <div className="relative z-10">
         <Header />

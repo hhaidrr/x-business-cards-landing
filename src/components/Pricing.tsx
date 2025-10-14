@@ -2,6 +2,7 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Check, Sparkles } from "lucide-react";
 import { motion } from "motion/react";
+import { ParticleBackground } from "./ParticleBackground";
 
 export function Pricing() {
   const plans = [
@@ -55,10 +56,11 @@ export function Pricing() {
 
   return (
     <section id="pricing" className="py-32 relative">
+      <ParticleBackground />
       {/* Background glow */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.02] to-transparent" />
       
-      <div className="container mx-auto px-4 relative">
+      <div className="container mx-auto px-4 relative z-10">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
