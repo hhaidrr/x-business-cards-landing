@@ -2,13 +2,13 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { ArrowRight, Twitter, Sparkles } from "lucide-react";
 import { motion } from "motion/react";
+import { ParticleBackground } from "./ParticleBackground";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Gradient orbs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-white/3 rounded-full blur-3xl" />
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 bg-black">
+      {/* Particle Background Animation */}
+      <ParticleBackground />
       
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
@@ -79,7 +79,6 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="relative max-w-4xl mx-auto"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-white/10 via-white/5 to-white/10 blur-3xl" />
             
             <div className="relative grid md:grid-cols-2 gap-6 p-1 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/10">
               {/* Twitter profile card */}
@@ -107,7 +106,6 @@ export function Hero() {
                 whileHover={{ y: -5 }}
                 className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl border border-white/20 relative overflow-hidden"
               >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full blur-2xl" />
                 <div className="relative">
                   <div className="flex items-start justify-between mb-6">
                     <div>
