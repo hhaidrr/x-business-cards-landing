@@ -41,7 +41,7 @@ export function Examples() {
           className="text-center mb-20"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl mb-4 tracking-tight">
-            See SocialCard in Action
+            See LinkCard in Action
           </h2>
           <p className="text-lg text-white/60 max-w-2xl mx-auto">
             Real examples of how Twitter profiles transform into professional business cards.

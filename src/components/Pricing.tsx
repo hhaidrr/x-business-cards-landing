@@ -9,7 +9,7 @@ export function Pricing() {
     {
       name: "Starter",
       price: "Free",
-      description: "Perfect for trying out SocialCard",
+      description: "Perfect for trying out LinkCard",
       features: [
         "1 business card design",
         "Basic templates",

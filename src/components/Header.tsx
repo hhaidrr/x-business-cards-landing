@@ -13,12 +13,12 @@ export function Header() {
         <a href="#" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           <img 
             src="/assets/branding/logo_black.svg" 
-            alt="SocialCard Logo" 
+            alt="LinkCard Logo" 
             className="h-10 w-auto"
           />
           <img 
             src="/assets/branding/name_logo_white.svg" 
-            alt="SocialCard" 
+            alt="LinkCard" 
             className="h-8 w-auto"
           />
         </a>
