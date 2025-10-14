@@ -29,11 +29,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-5xl md:text-7xl lg:text-8xl mb-6 tracking-tight"
           >
-            Turn Your Twitter Into
-            <br />
-            <span className="bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">
-              Professional Business Cards
-            </span>
+            X Profile Business Cards
           </motion.h1>
           
           <motion.p 
@@ -42,7 +38,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg md:text-xl text-white/60 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            Create stunning, professional business cards directly from your Twitter profile. 
+            Create stunning, professional business cards directly from your X profile. 
             Perfect for networking events, conferences, and building your personal brand.
           </motion.p>
           
