@@ -16,7 +16,11 @@ export function Header() {
             alt="SocialCard Logo" 
             className="h-10 w-auto"
           />
-          <span className="font-semibold text-lg">SocialCard</span>
+          <img 
+            src="/assets/branding/name_logo_white.svg" 
+            alt="SocialCard" 
+            className="h-8 w-auto"
+          />
         </a>
         
         <nav className="hidden md:flex items-center gap-8">
