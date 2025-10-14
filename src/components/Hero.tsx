@@ -27,7 +27,14 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-5xl md:text-7xl lg:text-8xl mb-6 tracking-tight"
+            className="mb-6 tracking-tight font-sans font-medium"
+            style={{ 
+              fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif', 
+              fontWeight: '500', 
+              fontSize: '88px',
+              fontDisplay: 'swap',
+              letterSpacing: '-0.02em'
+            }}
           >
             X Profile Business Cards
           </motion.h1>
@@ -36,7 +43,8 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-lg md:text-xl text-white/60 mb-12 max-w-3xl mx-auto leading-relaxed"
+            className="text-lg md:text-xl text-white/60 mb-12 max-w-3xl mx-auto leading-relaxed font-sans"
+            style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif' }}
           >
             Create stunning, professional business cards directly from your X profile. 
             Perfect for networking events, conferences, and building your personal brand.
@@ -103,8 +111,8 @@ export function Hero() {
                 <div className="relative">
                   <div className="flex items-start justify-between mb-6">
                     <div>
-                      <h4 className="text-lg font-semibold mb-1">Your Name</h4>
-                      <p className="text-sm text-white/60">Your Title</p>
+                      <h4 className="text-lg font-semibold mb-1" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif' }}>Your Name</h4>
+                      <p className="text-sm text-white/60" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif' }}>Your Title</p>
                     </div>
                     <div className="w-12 h-12 rounded-full bg-gradient-to-br from-white/20 to-white/5 border border-white/20" />
                   </div>
@@ -112,10 +120,10 @@ export function Hero() {
                   <div className="space-y-2 text-sm text-white/60">
                     <div className="flex items-center gap-2">
                       <Twitter className="w-4 h-4" />
-                      <span>@yourhandle</span>
+                      <span style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif' }}>@yourhandle</span>
                     </div>
                     <div className="h-px bg-white/10 my-3" />
-                    <p className="text-xs italic">
+                    <p className="text-xs italic" style={{ fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif' }}>
                       "Your professional tagline here"
                     </p>
                   </div>

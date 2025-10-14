@@ -186,4 +186,5 @@
 
 html {
   font-size: var(--font-size);
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
