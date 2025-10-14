@@ -40,7 +40,7 @@ export function ParticleBackground({ zIndex = -1 }: ParticleBackgroundProps) {
 
       for (let i = 0; i < particleCount; i++) {
         const layer = Math.floor(Math.random() * 3) + 1; // 3 layers
-        const speed = layer === 1 ? 0.2 : layer === 2 ? 0.4 : 0.6; // Back layer slower
+        const speed = layer === 1 ? 0.1 : layer === 2 ? 0.2 : 0.3; // Back layer slower
         const size = layer === 1 ? 1 : layer === 2 ? 1.5 : 2; // Back layer smaller
         const opacity = layer === 1 ? 0.1 : layer === 2 ? 0.2 : 0.3; // Back layer more transparent
 
