@@ -12,7 +12,7 @@ export function Header() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           <img 
-            src="/assets/branding/white_logo.svg" 
+            src="/assets/branding/logo_black.svg" 
             alt="SocialCard Logo" 
             className="h-10 w-auto"
           />
